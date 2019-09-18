@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Notifications from './Notifications';
+import ProjectList from '../projects/ProjectList'
 
 class Dashboard extends Component {
   render() {
@@ -8,7 +9,9 @@ class Dashboard extends Component {
         <div className='row'>
 
           {/* for projectlist */}
-          <div className='col s12 m6'></div>
+          <div className='col s12 m6'>
+            <ProjectList />
+          </div>
 
           {/* for notifications */}
           <div className='col s12 m5 offset-m1'>
