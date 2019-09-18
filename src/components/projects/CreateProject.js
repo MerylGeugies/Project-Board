@@ -45,9 +45,9 @@ class CreateProject extends Component {
   }
 }
 
-const mapDispatchToProps = () => {
+const mapDispatchToProps = (dispatch) => {
   return {
-    createProject: (project) => dispatchEvent(createProject(project))
+    createProject: (project) => dispatch(createProject(project))
   }
 }
 
