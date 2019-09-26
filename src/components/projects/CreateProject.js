@@ -28,7 +28,7 @@ class CreateProject extends Component {
 
     return(
       <div className='container'>
-        <form onSubmit={this.handleSubmit} className='white'>
+        <form className='white' onSubmit={this.handleSubmit} >
           <h5 className='grey-text text-darken-3'>Add project</h5>
 
           <div className='input-field'>
@@ -56,7 +56,7 @@ const mapStateToProps = (state) => {
   }
 }
 
-const mapDispatchToProps = (dispatch) => {
+const mapDispatchToProps = dispatch => {
   return {
     createProject: (project) => dispatch(createProject(project))
   }
