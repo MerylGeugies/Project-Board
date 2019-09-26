@@ -1,3 +1,19 @@
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
+# :clipboard: Project Board App :clipboard:
+With this app you can keep track of your projects. You have to sign up or login to add a project to the board. When somebody adds a project to the board or has signed up, it will show a notification.
+
+## See a deployed version of the app 
+
+
+### Technologies used 
+* React
+* Redux
+* Firebase
+* Materialize
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
