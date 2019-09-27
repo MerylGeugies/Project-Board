@@ -6,10 +6,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: url(/img/BG-Mario.jpg) no-repeat;
+  background: url(/img/color.jpg) no-repeat;
   background-size: 100%;
   background-position: bottom;
-  background-color: #95e8f3;
+  background-color: whitesmoke;
   min-height: 100%;
 }
 
