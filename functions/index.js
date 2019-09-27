@@ -4,9 +4,9 @@ const admin = require('firebase-admin');
 
 admin.initializeApp(functions.config().firebase)
 
-exports.helloWorld = functions.https.onRequest((request, response) => {
- response.send("Hello Meryl");
-});
+// exports.helloWorld = functions.https.onRequest((request, response) => {
+//  response.send("Hello Meryl");
+// });
 
 const createNotification = (notification => {
   return admin.firestore().collection('notifications').add(notification)
