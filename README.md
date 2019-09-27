@@ -5,13 +5,17 @@ With this app you can keep track of your projects. You have to sign up or login 
 
 ## :point_right: [checkout the deployed version here](https://project-board.netlify.com/) :point_left:
 
-
 ### Technologies used 
 * React
 * Redux
 * Firebase
 * Materialize
 
+
+![](project-board.new.project.gif)
+
+
+![](project-board.signup.gif)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
