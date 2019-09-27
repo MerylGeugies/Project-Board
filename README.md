@@ -11,9 +11,12 @@ With this app you can keep track of your projects. You have to sign up or login 
 * Firebase
 * Materialize
 
+
 ![](project-board.new.project.gif)
 
+
 ![](project-board.signup.gif)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
